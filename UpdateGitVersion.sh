@@ -2,8 +2,8 @@
 
 #Script to modifiy the version number inside a labview class
 
-#FILE='GitVersion.lvclass'
-FILE=${1}
+FILE='GitVersion.lvclass'
+#FILE=${1}
 
 #Get the XML line with the lvclass version
 line=`grep NI.Lib.Version ${FILE}`
