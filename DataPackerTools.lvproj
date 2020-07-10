@@ -53,6 +53,7 @@
 			<Item Name="DataPacker_Settings.ctl" Type="VI" URL="../DataPacker/DataPacker_Settings.ctl"/>
 			<Item Name="DataPacker_Stop.vi" Type="VI" URL="../DataPacker/DataPacker_Stop.vi"/>
 			<Item Name="DataPackerDaemon.vi" Type="VI" URL="../DataPacker/DataPackerDaemon.vi"/>
+			<Item Name="Gateway_States.ctl" Type="VI" URL="../MIDAS_Gateway/Gateway_States.ctl"/>
 			<Item Name="GitVersion.lvclass" Type="LVClass" URL="../DataPacker/GitVersion.lvclass"/>
 			<Item Name="StateMachineTypeDef.ctl" Type="VI" URL="../DataPacker/StateMachineTypeDef.ctl"/>
 		</Item>
@@ -81,7 +82,6 @@
 		</Item>
 		<Item Name="DataPacker_Manager.vi" Type="VI" URL="../DataPacker_Manager.vi"/>
 		<Item Name="Gateway.vi" Type="VI" URL="../MIDAS_Gateway/Gateway.vi"/>
-		<Item Name="Gateway_States.ctl" Type="VI" URL="../MIDAS_Gateway/Gateway_States.ctl"/>
 		<Item Name="ReadJSONoverTCP.vi" Type="VI" URL="../DataPacker/Utilities/ReadJSONoverTCP.vi"/>
 		<Item Name="StopButton.lvlib" Type="Library" URL="../StopButton.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
