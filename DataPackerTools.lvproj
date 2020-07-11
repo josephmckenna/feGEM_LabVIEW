@@ -74,6 +74,9 @@
 			<Item Name="DownloadGit.vi" Type="VI" URL="../GitTools/DownloadGit.vi"/>
 			<Item Name="Update.vi" Type="VI" URL="../GitTools/Update.vi"/>
 		</Item>
+		<Item Name="MIDAS_Gateway" Type="Folder">
+			<Item Name="GatewayClass.lvclass" Type="LVClass" URL="../MIDAS_Gateway/GatewayClass.lvclass"/>
+		</Item>
 		<Item Name="SendStuff" Type="Folder">
 			<Item Name="LogAnything.vim" Type="VI" URL="../SendStuff/LogAnything.vim"/>
 			<Item Name="SayThisOnMIDAS.vi" Type="VI" URL="../SendStuff/SayThisOnMIDAS.vi"/>
