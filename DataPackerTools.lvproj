@@ -60,6 +60,7 @@
 		<Item Name="Examples and Demos" Type="Folder">
 			<Item Name="BIG_DEMO_Queue.vi" Type="VI" URL="../Examples and Demos/BIG_DEMO_Queue.vi"/>
 			<Item Name="DEMO_Queue.vi" Type="VI" URL="../Examples and Demos/DEMO_Queue.vi"/>
+			<Item Name="ExampleSaveFileToMIDAS.vi" Type="VI" URL="../Examples and Demos/ExampleSaveFileToMIDAS.vi"/>
 			<Item Name="Fast_PID_with_Slow_Logging.vi" Type="VI" URL="../Examples and Demos/Fast_PID_with_Slow_Logging.vi"/>
 			<Item Name="TestDataTypes.vi" Type="VI" URL="../Examples and Demos/TestDataTypes.vi"/>
 		</Item>
@@ -79,6 +80,7 @@
 		</Item>
 		<Item Name="SendStuff" Type="Folder">
 			<Item Name="LogAnything.vim" Type="VI" URL="../SendStuff/LogAnything.vim"/>
+			<Item Name="SaveFileToMIDAS.vi" Type="VI" URL="../SettingsFilesInMIDAS/SaveFileToMIDAS.vi"/>
 			<Item Name="SayThisOnMIDAS.vi" Type="VI" URL="../SendStuff/SayThisOnMIDAS.vi"/>
 			<Item Name="SlowLogger.lvclass" Type="LVClass" URL="../SendStuff/SlowLogger.lvclass"/>
 			<Item Name="WriteElog.vi" Type="VI" URL="../SendStuff/WriteElog.vi"/>
@@ -89,6 +91,7 @@
 		<Item Name="StopButton.lvlib" Type="Library" URL="../StopButton.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -113,6 +116,10 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
+				<Item Name="MD5Checksum File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
+				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
+				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
