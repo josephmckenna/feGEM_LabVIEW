@@ -32,6 +32,7 @@
 				<Item Name="FGV_ConnectionStatus.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_ConnectionStatus.vi"/>
 				<Item Name="FGV_DefaultHistoryRate.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_DefaultHistoryRate.vi"/>
 				<Item Name="FGV_MIDASHandlingTime.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_MIDASHandlingTime.vi"/>
+				<Item Name="FGV_MIDASSettingsFiles.vi" Type="VI" URL="../SettingsFilesInMIDAS/FGV_MIDASSettingsFiles.vi"/>
 				<Item Name="FGV_PeriodicTasks.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_PeriodicTasks.vi"/>
 				<Item Name="FGV_RunNumber.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunNumber.vi"/>
 				<Item Name="FGV_RunStartTime.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunStartTime.vi"/>
@@ -41,10 +42,14 @@
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="CheckLVTimeSync.vi" Type="VI" URL="../DataPacker/Utilities/CheckLVTimeSync.vi"/>
 				<Item Name="ERROR_DIALOGUE.vi" Type="VI" URL="../DataPacker/Utilities/ERROR_DIALOGUE.vi"/>
+				<Item Name="InHouseJSONParser.vi" Type="VI" URL="../DataPacker/Utilities/InHouseJSONParser.vi"/>
 				<Item Name="LoadMonitor.vi" Type="VI" URL="../DataPacker/Utilities/LoadMonitor.vi"/>
 				<Item Name="LogGitHash.vi" Type="VI" URL="../DataPacker/Utilities/LogGitHash.vi"/>
 				<Item Name="LogVersionInfo.vi" Type="VI" URL="../DataPacker/Utilities/LogVersionInfo.vi"/>
 				<Item Name="PeriodicEnumTypeDef.ctl" Type="VI" URL="../DataPacker/Utilities/PeriodicEnumTypeDef.ctl"/>
+				<Item Name="ReadJSONoverTCP.vi" Type="VI" URL="../DataPacker/Utilities/ReadJSONoverTCP.vi"/>
+				<Item Name="SettingsFile.lvclass" Type="LVClass" URL="../SettingsFilesInMIDAS/SettingsFile.lvclass"/>
+				<Item Name="SettingsFileList.lvclass" Type="LVClass" URL="../SettingsFilesInMIDAS/SettingsFileList.lvclass"/>
 				<Item Name="SSH_TUNNEL.lvclass" Type="LVClass" URL="../DataPacker/Utilities/SSH_TUNNEL.lvclass"/>
 			</Item>
 			<Item Name="DataPacker.lvclass" Type="LVClass" URL="../DataPacker/DataPacker.lvclass"/>
@@ -70,6 +75,7 @@
 			<Item Name="GetRunStartTime.vi" Type="VI" URL="../GetStuff/GetRunStartTime.vi"/>
 			<Item Name="GetRunStatus.vi" Type="VI" URL="../GetStuff/GetRunStatus.vi"/>
 			<Item Name="GetRunStopTime.vi" Type="VI" URL="../GetStuff/GetRunStopTime.vi"/>
+			<Item Name="LoadFileFromMIDAS.vi" Type="VI" URL="../SettingsFilesInMIDAS/LoadFileFromMIDAS.vi"/>
 		</Item>
 		<Item Name="GitTools" Type="Folder">
 			<Item Name="DownloadGit.vi" Type="VI" URL="../GitTools/DownloadGit.vi"/>
@@ -87,7 +93,6 @@
 		</Item>
 		<Item Name="DataPacker_Manager.vi" Type="VI" URL="../DataPacker_Manager.vi"/>
 		<Item Name="Gateway.vi" Type="VI" URL="../MIDAS_Gateway/Gateway.vi"/>
-		<Item Name="ReadJSONoverTCP.vi" Type="VI" URL="../DataPacker/Utilities/ReadJSONoverTCP.vi"/>
 		<Item Name="StopButton.lvlib" Type="Library" URL="../StopButton.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
