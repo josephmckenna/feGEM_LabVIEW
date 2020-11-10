@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{782D9667-2CBA-43E5-B316-D0585B425272}" Type="Ref">/My Computer/StopButton.lvlib/stop</Property>
+	<Property Name="varPersistentID:{782D9667-2CBA-43E5-B316-D0585B425272}" Type="Ref">/My Computer/feGEM DataPacker.lvlib/StopButton.lvlib/stop</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -20,48 +20,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="DataPacker" Type="Folder">
-			<Item Name="DataStructures" Type="Folder">
-				<Item Name="GEM_BANK.lvclass" Type="LVClass" URL="../DataPacker/DataStructures/GEM_BANK.lvclass"/>
-				<Item Name="GEM_BANK_ARRAY.lvclass" Type="LVClass" URL="../DataPacker/DataStructures/GEM_BANK_ARRAY.lvclass"/>
-				<Item Name="GEM_BANK_CLUSTER_typedef.ctl" Type="VI" URL="../DataPacker/DataStructures/GEM_BANK_CLUSTER_typedef.ctl"/>
-				<Item Name="GEM_DATA_Build.vim" Type="VI" URL="../DataPacker/DataStructures/GEM_DATA_Build.vim"/>
-				<Item Name="GEM_DATA_cluster_typedef.ctl" Type="VI" URL="../DataPacker/DataStructures/GEM_DATA_cluster_typedef.ctl"/>
-			</Item>
-			<Item Name="GlobalVariables" Type="Folder">
-				<Item Name="FGV_ConnectionStatus.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_ConnectionStatus.vi"/>
-				<Item Name="FGV_DefaultHistoryRate.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_DefaultHistoryRate.vi"/>
-				<Item Name="FGV_MIDASHandlingTime.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_MIDASHandlingTime.vi"/>
-				<Item Name="FGV_MIDASSettingsFiles.vi" Type="VI" URL="../SettingsFilesInMIDAS/FGV_MIDASSettingsFiles.vi"/>
-				<Item Name="FGV_PeriodicTasks.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_PeriodicTasks.vi"/>
-				<Item Name="FGV_RunNumber.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunNumber.vi"/>
-				<Item Name="FGV_RunStartTime.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunStartTime.vi"/>
-				<Item Name="FGV_RunStatus.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunStatus.vi"/>
-				<Item Name="FGV_RunStopTime.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunStopTime.vi"/>
-			</Item>
-			<Item Name="Utilities" Type="Folder">
-				<Item Name="CheckLVTimeSync.vi" Type="VI" URL="../DataPacker/Utilities/CheckLVTimeSync.vi"/>
-				<Item Name="ERROR_DIALOGUE.vi" Type="VI" URL="../DataPacker/Utilities/ERROR_DIALOGUE.vi"/>
-				<Item Name="InHouseJSONParser.vi" Type="VI" URL="../DataPacker/Utilities/InHouseJSONParser.vi"/>
-				<Item Name="LoadMonitor.vi" Type="VI" URL="../DataPacker/Utilities/LoadMonitor.vi"/>
-				<Item Name="LogGitHash.vi" Type="VI" URL="../DataPacker/Utilities/LogGitHash.vi"/>
-				<Item Name="LogVersionInfo.vi" Type="VI" URL="../DataPacker/Utilities/LogVersionInfo.vi"/>
-				<Item Name="PeriodicEnumTypeDef.ctl" Type="VI" URL="../DataPacker/Utilities/PeriodicEnumTypeDef.ctl"/>
-				<Item Name="ReadJSONoverTCP.vi" Type="VI" URL="../DataPacker/Utilities/ReadJSONoverTCP.vi"/>
-				<Item Name="SettingsFile.lvclass" Type="LVClass" URL="../SettingsFilesInMIDAS/SettingsFile.lvclass"/>
-				<Item Name="SettingsFileList.lvclass" Type="LVClass" URL="../SettingsFilesInMIDAS/SettingsFileList.lvclass"/>
-				<Item Name="SSH_TUNNEL.lvclass" Type="LVClass" URL="../DataPacker/Utilities/SSH_TUNNEL.lvclass"/>
-			</Item>
-			<Item Name="DataPacker.lvclass" Type="LVClass" URL="../DataPacker/DataPacker.lvclass"/>
-			<Item Name="DataPacker_Commands.ctl" Type="VI" URL="../DataPacker/DataPacker_Commands.ctl"/>
-			<Item Name="DataPacker_Restart.vi" Type="VI" URL="../DataPacker/DataPacker_Restart.vi"/>
-			<Item Name="DataPacker_Settings.ctl" Type="VI" URL="../DataPacker/DataPacker_Settings.ctl"/>
-			<Item Name="DataPacker_Stop.vi" Type="VI" URL="../DataPacker/DataPacker_Stop.vi"/>
-			<Item Name="DataPackerDaemon.vi" Type="VI" URL="../DataPacker/DataPackerDaemon.vi"/>
-			<Item Name="Gateway_States.ctl" Type="VI" URL="../MIDAS_Gateway/Gateway_States.ctl"/>
-			<Item Name="GitVersion.lvclass" Type="LVClass" URL="../DataPacker/GitVersion.lvclass"/>
-			<Item Name="StateMachineTypeDef.ctl" Type="VI" URL="../DataPacker/StateMachineTypeDef.ctl"/>
-		</Item>
 		<Item Name="Examples and Demos" Type="Folder">
 			<Item Name="BIG_DEMO_Queue.vi" Type="VI" URL="../Examples and Demos/BIG_DEMO_Queue.vi"/>
 			<Item Name="DEMO_Queue.vi" Type="VI" URL="../Examples and Demos/DEMO_Queue.vi"/>
@@ -69,31 +27,8 @@
 			<Item Name="Fast_PID_with_Slow_Logging.vi" Type="VI" URL="../Examples and Demos/Fast_PID_with_Slow_Logging.vi"/>
 			<Item Name="TestDataTypes.vi" Type="VI" URL="../Examples and Demos/TestDataTypes.vi"/>
 		</Item>
-		<Item Name="GetStuff" Type="Folder">
-			<Item Name="GetDefaultHistoryRate.vi" Type="VI" URL="../GetStuff/GetDefaultHistoryRate.vi"/>
-			<Item Name="GetRunNumber.vi" Type="VI" URL="../GetStuff/GetRunNumber.vi"/>
-			<Item Name="GetRunStartTime.vi" Type="VI" URL="../GetStuff/GetRunStartTime.vi"/>
-			<Item Name="GetRunStatus.vi" Type="VI" URL="../GetStuff/GetRunStatus.vi"/>
-			<Item Name="GetRunStopTime.vi" Type="VI" URL="../GetStuff/GetRunStopTime.vi"/>
-			<Item Name="LoadFileFromMIDAS.vi" Type="VI" URL="../SettingsFilesInMIDAS/LoadFileFromMIDAS.vi"/>
-		</Item>
-		<Item Name="GitTools" Type="Folder">
-			<Item Name="DownloadGit.vi" Type="VI" URL="../GitTools/DownloadGit.vi"/>
-			<Item Name="Update.vi" Type="VI" URL="../GitTools/Update.vi"/>
-		</Item>
-		<Item Name="MIDAS_Gateway" Type="Folder">
-			<Item Name="GatewayClass.lvclass" Type="LVClass" URL="../MIDAS_Gateway/GatewayClass.lvclass"/>
-		</Item>
-		<Item Name="SendStuff" Type="Folder">
-			<Item Name="LogAnything.vim" Type="VI" URL="../SendStuff/LogAnything.vim"/>
-			<Item Name="SaveFileToMIDAS.vi" Type="VI" URL="../SettingsFilesInMIDAS/SaveFileToMIDAS.vi"/>
-			<Item Name="SayThisOnMIDAS.vi" Type="VI" URL="../SendStuff/SayThisOnMIDAS.vi"/>
-			<Item Name="SlowLogger.lvclass" Type="LVClass" URL="../SendStuff/SlowLogger.lvclass"/>
-			<Item Name="WriteElog.vi" Type="VI" URL="../SendStuff/WriteElog.vi"/>
-		</Item>
-		<Item Name="DataPacker_Manager.vi" Type="VI" URL="../DataPacker_Manager.vi"/>
-		<Item Name="Gateway.vi" Type="VI" URL="../MIDAS_Gateway/Gateway.vi"/>
-		<Item Name="StopButton.lvlib" Type="Library" URL="../StopButton.lvlib"/>
+		<Item Name="feGEM DataPacker.lvlib" Type="Library" URL="../feGEM DataPacker.lvlib"/>
+		<Item Name="feGEM Gateway.lvlib" Type="Library" URL="../feGEM Gateway.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -125,6 +60,7 @@
 				<Item Name="MD5Checksum File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
+				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
