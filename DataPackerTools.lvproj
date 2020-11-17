@@ -26,6 +26,7 @@
 			<Item Name="ExampleSaveFileToMIDAS.vi" Type="VI" URL="../Examples and Demos/ExampleSaveFileToMIDAS.vi"/>
 			<Item Name="Fast_PID_with_Slow_Logging.vi" Type="VI" URL="../Examples and Demos/Fast_PID_with_Slow_Logging.vi"/>
 			<Item Name="TestDataTypes.vi" Type="VI" URL="../Examples and Demos/TestDataTypes.vi"/>
+			<Item Name="TestGitTools.vi" Type="VI" URL="../GitTools/TestGitTools.vi"/>
 		</Item>
 		<Item Name="feGEM DataPacker.lvlib" Type="Library" URL="../feGEM DataPacker.lvlib"/>
 		<Item Name="feGEM Gateway.lvlib" Type="Library" URL="../feGEM Gateway.lvlib"/>
