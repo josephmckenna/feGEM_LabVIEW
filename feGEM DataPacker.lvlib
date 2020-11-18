@@ -56,11 +56,13 @@
 	</Item>
 	<Item Name="GitTools" Type="Folder">
 		<Item Name="DownloadGit.vi" Type="VI" URL="../GitTools/DownloadGit.vi"/>
+		<Item Name="FindAllChildDotGitFolders.vi" Type="VI" URL="../GitTools/FindAllChildDotGitFolders.vi"/>
 		<Item Name="GetGitHash.vi" Type="VI" URL="../GitTools/GetGitHash.vi"/>
 		<Item Name="GetMoreGitInfoFromHash.vi" Type="VI" URL="../GitTools/GetMoreGitInfoFromHash.vi"/>
 		<Item Name="GetPathOfDotGitFolder.vi" Type="VI" URL="../GitTools/GetPathOfDotGitFolder.vi"/>
 		<Item Name="GetPathOfGitLog.vi" Type="VI" URL="../GitTools/GetPathOfGitLog.vi"/>
 		<Item Name="GitCommitData.ctl" Type="VI" URL="../GitTools/GitCommitData.ctl"/>
+		<Item Name="IsFolderDotGit.vi" Type="VI" URL="../GitTools/IsFolderDotGit.vi"/>
 		<Item Name="Update.vi" Type="VI" URL="../GitTools/Update.vi"/>
 	</Item>
 	<Item Name="SendStuff" Type="Folder">
