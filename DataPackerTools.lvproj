@@ -21,8 +21,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples and Demos" Type="Folder">
-			<Item Name="BIG_DEMO_Queue.vi" Type="VI" URL="../Examples and Demos/BIG_DEMO_Queue.vi"/>
-			<Item Name="DEMO_Queue.vi" Type="VI" URL="../Examples and Demos/DEMO_Queue.vi"/>
 			<Item Name="ExampleSaveFileToMIDAS.vi" Type="VI" URL="../Examples and Demos/ExampleSaveFileToMIDAS.vi"/>
 			<Item Name="Fast_PID_with_Slow_Logging.vi" Type="VI" URL="../Examples and Demos/Fast_PID_with_Slow_Logging.vi"/>
 			<Item Name="TestDataTypes.vi" Type="VI" URL="../Examples and Demos/TestDataTypes.vi"/>
@@ -81,9 +79,6 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
