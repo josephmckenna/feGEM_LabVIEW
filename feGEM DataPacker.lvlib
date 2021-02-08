@@ -67,6 +67,7 @@
 	</Item>
 	<Item Name="SendStuff" Type="Folder">
 		<Item Name="LogAnything.vim" Type="VI" URL="../SendStuff/LogAnything.vim"/>
+		<Item Name="LogFile.vi" Type="VI" URL="../SendStuff/LogFile.vi"/>
 		<Item Name="SaveFileToMIDAS.vi" Type="VI" URL="../SettingsFilesInMIDAS/SaveFileToMIDAS.vi"/>
 		<Item Name="SayThisOnMIDAS.vi" Type="VI" URL="../SendStuff/SayThisOnMIDAS.vi"/>
 		<Item Name="SlowLogger.lvclass" Type="LVClass" URL="../SendStuff/SlowLogger.lvclass"/>
