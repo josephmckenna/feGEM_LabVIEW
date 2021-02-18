@@ -66,6 +66,8 @@
 		<Item Name="Update.vi" Type="VI" URL="../GitTools/Update.vi"/>
 	</Item>
 	<Item Name="SendStuff" Type="Folder">
+		<Item Name="BuildBase64StringFromImage.vi" Type="VI" URL="../SendStuff/BuildBase64StringFromImage.vi"/>
+		<Item Name="ElogEncoding.ctl" Type="VI" URL="../DataPacker/Utilities/ElogEncoding.ctl"/>
 		<Item Name="LogAnything.vim" Type="VI" URL="../SendStuff/LogAnything.vim"/>
 		<Item Name="LogFile.vi" Type="VI" URL="../SendStuff/LogFile.vi"/>
 		<Item Name="SaveFileToMIDAS.vi" Type="VI" URL="../SettingsFilesInMIDAS/SaveFileToMIDAS.vi"/>
