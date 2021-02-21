@@ -23,13 +23,13 @@
 		<Item Name="Examples and Demos" Type="Folder">
 			<Item Name="ExampleSaveFileToMIDASSettingsFileDatabase.vi" Type="VI" URL="../Examples and Demos/ExampleSaveFileToMIDASSettingsFileDatabase.vi"/>
 			<Item Name="Fast_PID_with_Slow_Logging.vi" Type="VI" URL="../Examples and Demos/Fast_PID_with_Slow_Logging.vi"/>
+			<Item Name="PostElogWithInlineImages.vi" Type="VI" URL="../Examples and Demos/PostElogWithInlineImages.vi"/>
 			<Item Name="Send an MCP Image.vi" Type="VI" URL="../Examples and Demos/Send an MCP Image.vi"/>
 			<Item Name="TestDataTypes.vi" Type="VI" URL="../Examples and Demos/TestDataTypes.vi"/>
 			<Item Name="TestGitTools.vi" Type="VI" URL="../GitTools/TestGitTools.vi"/>
 		</Item>
 		<Item Name="feGEM DataPacker.lvlib" Type="Library" URL="../feGEM DataPacker.lvlib"/>
 		<Item Name="feGEM Gateway.lvlib" Type="Library" URL="../feGEM Gateway.lvlib"/>
-		<Item Name="PostElogWithInlineImages.vi" Type="VI" URL="../Examples and Demos/PostElogWithInlineImages.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -82,6 +82,9 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
