@@ -28,6 +28,7 @@
 			<Item Name="ERROR_DIALOGUE.vi" Type="VI" URL="../DataPacker/Utilities/ERROR_DIALOGUE.vi"/>
 			<Item Name="InHouseJSONParser.vi" Type="VI" URL="../DataPacker/Utilities/InHouseJSONParser.vi"/>
 			<Item Name="LoadMonitor.vi" Type="VI" URL="../DataPacker/Utilities/LoadMonitor.vi"/>
+			<Item Name="LogDiskSpace.vi" Type="VI" URL="../DataPacker/Utilities/LogDiskSpace.vi"/>
 			<Item Name="LogGitHash.vi" Type="VI" URL="../DataPacker/Utilities/LogGitHash.vi"/>
 			<Item Name="LogVersionInfo.vi" Type="VI" URL="../DataPacker/Utilities/LogVersionInfo.vi"/>
 			<Item Name="PeriodicEnumTypeDef.ctl" Type="VI" URL="../DataPacker/Utilities/PeriodicEnumTypeDef.ctl"/>
