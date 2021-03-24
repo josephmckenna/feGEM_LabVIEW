@@ -49,6 +49,7 @@
 	</Item>
 	<Item Name="GetStuff" Type="Folder">
 		<Item Name="GetDefaultHistoryRate.vi" Type="VI" URL="../GetStuff/GetDefaultHistoryRate.vi"/>
+		<Item Name="GetMIDASConnectionStatus.vi" Type="VI" URL="../GetStuff/GetMIDASConnectionStatus.vi"/>
 		<Item Name="GetRunNumber.vi" Type="VI" URL="../GetStuff/GetRunNumber.vi"/>
 		<Item Name="GetRunStartTime.vi" Type="VI" URL="../GetStuff/GetRunStartTime.vi"/>
 		<Item Name="GetRunStatus.vi" Type="VI" URL="../GetStuff/GetRunStatus.vi"/>
