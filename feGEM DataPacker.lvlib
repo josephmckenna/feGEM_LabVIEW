@@ -43,6 +43,7 @@
 		<Item Name="DataPacker_Settings.ctl" Type="VI" URL="../DataPacker/DataPacker_Settings.ctl"/>
 		<Item Name="DataPacker_Stop.vi" Type="VI" URL="../DataPacker/DataPacker_Stop.vi"/>
 		<Item Name="DataPackerDaemon.vi" Type="VI" URL="../DataPacker/DataPackerDaemon.vi"/>
+		<Item Name="ErrorTypes.ctl" Type="VI" URL="../DataPacker/ErrorTypes.ctl"/>
 		<Item Name="Gateway_States.ctl" Type="VI" URL="../MIDAS_Gateway/Gateway_States.ctl"/>
 		<Item Name="GitVersion.lvclass" Type="LVClass" URL="../DataPacker/GitVersion.lvclass"/>
 		<Item Name="StateMachineTypeDef.ctl" Type="VI" URL="../DataPacker/StateMachineTypeDef.ctl"/>
