@@ -79,4 +79,5 @@
 		<Item Name="WriteElog.vi" Type="VI" URL="../SendStuff/WriteElog.vi"/>
 	</Item>
 	<Item Name="DataPacker_Manager.vi" Type="VI" URL="../DataPacker_Manager.vi"/>
+	<Item Name="DataPacker_QueueInspector.vi" Type="VI" URL="../DataPacker/DataPacker_QueueInspector.vi"/>
 </Library>
