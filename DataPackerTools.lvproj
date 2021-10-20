@@ -28,6 +28,7 @@
 			<Item Name="TestDataTypes.vi" Type="VI" URL="../Examples and Demos/TestDataTypes.vi"/>
 			<Item Name="TestGitTools.vi" Type="VI" URL="../GitTools/TestGitTools.vi"/>
 			<Item Name="TestManyUniqueVariables.vi" Type="VI" URL="../Examples and Demos/TestManyUniqueVariables.vi"/>
+			<Item Name="TestNotLoggingAnyData.vi" Type="VI" URL="../Examples and Demos/TestNotLoggingAnyData.vi"/>
 		</Item>
 		<Item Name="feGEM DataPacker.lvlib" Type="Library" URL="../feGEM DataPacker.lvlib"/>
 		<Item Name="feGEM Gateway.lvlib" Type="Library" URL="../feGEM Gateway.lvlib"/>

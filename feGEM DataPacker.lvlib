@@ -5,33 +5,60 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="DataPacker" Type="Folder">
+		<Item Name="DataPacker_States" Type="Folder">
+			<Item Name="BundleDataInQueue.vi" Type="VI" URL="../DataPacker/DataPackerStates/BundleDataInQueue.vi"/>
+			<Item Name="ConnectToMIDAS.vi" Type="VI" URL="../DataPacker/DataPackerStates/ConnectToMIDAS.vi"/>
+			<Item Name="GetAndSetEventSize.vi" Type="VI" URL="../DataPacker/DataPackerStates/GetAndSetEventSize.vi"/>
+			<Item Name="HandleErrorStates.vi" Type="VI" URL="../DataPacker/DataPackerStates/HandleErrorStates.vi"/>
+			<Item Name="SendData.vi" Type="VI" URL="../DataPacker/DataPackerStates/SendData.vi"/>
+			<Item Name="UpdateStates.vi" Type="VI" URL="../DataPacker/DataPackerStates/UpdateStates.vi"/>
+		</Item>
 		<Item Name="DataStructures" Type="Folder">
+			<Item Name="FormatODBPath.vi" Type="VI" URL="../DataPacker/Utilities/FormatODBPath.vi"/>
 			<Item Name="GEM_BANK.lvclass" Type="LVClass" URL="../DataPacker/DataStructures/GEM_BANK.lvclass"/>
 			<Item Name="GEM_BANK_ARRAY.lvclass" Type="LVClass" URL="../DataPacker/DataStructures/GEM_BANK_ARRAY.lvclass"/>
 			<Item Name="GEM_BANK_CLUSTER_typedef.ctl" Type="VI" URL="../DataPacker/DataStructures/GEM_BANK_CLUSTER_typedef.ctl"/>
 			<Item Name="GEM_DATA_Build.vim" Type="VI" URL="../DataPacker/DataStructures/GEM_DATA_Build.vim"/>
 			<Item Name="GEM_DATA_cluster_typedef.ctl" Type="VI" URL="../DataPacker/DataStructures/GEM_DATA_cluster_typedef.ctl"/>
+			<Item Name="MIDAS_ODB_Add_Or_Update.vi" Type="VI" URL="../DataPacker/DataStructures/MIDAS_ODB_Add_Or_Update.vi"/>
+			<Item Name="MIDAS_ODB_Entry.ctl" Type="VI" URL="../DataPacker/DataStructures/MIDAS_ODB_Entry.ctl"/>
+			<Item Name="MIDAS_ODB_Find.vi" Type="VI" URL="../DataPacker/DataStructures/MIDAS_ODB_Find.vi"/>
 		</Item>
 		<Item Name="GlobalVariables" Type="Folder">
+			<Item Name="DataPacker_Buffer_Usage_Enum.ctl" Type="VI" URL="../DataPacker/GlobalVariables/DataPacker_Buffer_Usage_Enum.ctl"/>
+			<Item Name="DataPacker_Global_Stop_Enum.ctl" Type="VI" URL="../DataPacker/GlobalVariables/DataPacker_Global_Stop_Enum.ctl"/>
+			<Item Name="FGV_BufferUsageMetrics.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_BufferUsageMetrics.vi"/>
+			<Item Name="FGV_ConnectionProperties.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_ConnectionProperties.vi"/>
 			<Item Name="FGV_ConnectionStatus.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_ConnectionStatus.vi"/>
+			<Item Name="FGV_DataPackerDebugMode.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_DataPackerDebugMode.vi"/>
+			<Item Name="FGV_DataPackerParentVI.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_DataPackerParentVI.vi"/>
+			<Item Name="FGV_DataPackerQueueMetrics.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_DataPackerQueueMetrics.vi"/>
+			<Item Name="FGV_DataPackerTimingMetrics.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_DataPackerTimingMetrics.vi"/>
 			<Item Name="FGV_DefaultHistoryRate.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_DefaultHistoryRate.vi"/>
+			<Item Name="FGV_GlobalStop.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_GlobalStop.vi"/>
+			<Item Name="FGV_MIDAS_ODB_data.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_MIDAS_ODB_data.vi"/>
 			<Item Name="FGV_MIDASHandlingTime.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_MIDASHandlingTime.vi"/>
+			<Item Name="FGV_MIDASReply.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_MIDASReply.vi"/>
 			<Item Name="FGV_MIDASSettingsFiles.vi" Type="VI" URL="../SettingsFilesInMIDAS/FGV_MIDASSettingsFiles.vi"/>
 			<Item Name="FGV_PeriodicTasks.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_PeriodicTasks.vi"/>
 			<Item Name="FGV_RunNumber.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunNumber.vi"/>
 			<Item Name="FGV_RunStartTime.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunStartTime.vi"/>
 			<Item Name="FGV_RunStatus.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunStatus.vi"/>
 			<Item Name="FGV_RunStopTime.vi" Type="VI" URL="../DataPacker/GlobalVariables/FGV_RunStopTime.vi"/>
+			<Item Name="MIDAS_ODB_Set_Get_Clear_Enum.ctl" Type="VI" URL="../DataPacker/GlobalVariables/MIDAS_ODB_Set_Get_Clear_Enum.ctl"/>
+			<Item Name="Set_And_Get_Enum.ctl" Type="VI" URL="../DataPacker/GlobalVariables/Set_And_Get_Enum.ctl"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="CheckLVTimeSync.vi" Type="VI" URL="../DataPacker/Utilities/CheckLVTimeSync.vi"/>
 			<Item Name="ERROR_DIALOGUE.vi" Type="VI" URL="../DataPacker/Utilities/ERROR_DIALOGUE.vi"/>
+			<Item Name="GetODBData.vi" Type="VI" URL="../GetStuff/GetODBData.vi"/>
 			<Item Name="InHouseJSONParser.vi" Type="VI" URL="../DataPacker/Utilities/InHouseJSONParser.vi"/>
 			<Item Name="LoadMonitor.vi" Type="VI" URL="../DataPacker/Utilities/LoadMonitor.vi"/>
 			<Item Name="LogDiskSpace.vi" Type="VI" URL="../DataPacker/Utilities/LogDiskSpace.vi"/>
 			<Item Name="LogGitHash.vi" Type="VI" URL="../DataPacker/Utilities/LogGitHash.vi"/>
 			<Item Name="LogVersionInfo.vi" Type="VI" URL="../DataPacker/Utilities/LogVersionInfo.vi"/>
 			<Item Name="PeriodicEnumTypeDef.ctl" Type="VI" URL="../DataPacker/Utilities/PeriodicEnumTypeDef.ctl"/>
+			<Item Name="ReadGlobalStop.vi" Type="VI" URL="../DataPacker/GlobalVariables/ReadGlobalStop.vi"/>
 			<Item Name="ReadJSONoverTCP.vi" Type="VI" URL="../DataPacker/Utilities/ReadJSONoverTCP.vi"/>
 			<Item Name="SettingsFile.lvclass" Type="LVClass" URL="../SettingsFilesInMIDAS/SettingsFile.lvclass"/>
 			<Item Name="SettingsFileList.lvclass" Type="LVClass" URL="../SettingsFilesInMIDAS/SettingsFileList.lvclass"/>
@@ -39,6 +66,8 @@
 		</Item>
 		<Item Name="DataPacker.lvclass" Type="LVClass" URL="../DataPacker/DataPacker.lvclass"/>
 		<Item Name="DataPacker_Commands.ctl" Type="VI" URL="../DataPacker/DataPacker_Commands.ctl"/>
+		<Item Name="DataPacker_MainStateMachine.vi" Type="VI" URL="../DataPacker/DataPacker_MainStateMachine.vi"/>
+		<Item Name="DataPacker_PeriodicTasks.vi" Type="VI" URL="../DataPacker/DataPacker_PeriodicTasks.vi"/>
 		<Item Name="DataPacker_Restart.vi" Type="VI" URL="../DataPacker/DataPacker_Restart.vi"/>
 		<Item Name="DataPacker_Settings.ctl" Type="VI" URL="../DataPacker/DataPacker_Settings.ctl"/>
 		<Item Name="DataPacker_Stop.vi" Type="VI" URL="../DataPacker/DataPacker_Stop.vi"/>
@@ -79,5 +108,6 @@
 		<Item Name="WriteElog.vi" Type="VI" URL="../SendStuff/WriteElog.vi"/>
 	</Item>
 	<Item Name="DataPacker_Manager.vi" Type="VI" URL="../DataPacker_Manager.vi"/>
+	<Item Name="DataPacker_Monitor.vi" Type="VI" URL="../DataPacker/DataPacker_Monitor.vi"/>
 	<Item Name="DataPacker_QueueInspector.vi" Type="VI" URL="../DataPacker/DataPacker_QueueInspector.vi"/>
 </Library>
